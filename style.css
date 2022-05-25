@@ -20,8 +20,13 @@ body {
 
 .flex-container {
     display: flex;
-    background-color: #f4f4f4;
-    justify-content: end;
+    flex-direction: column;
+    /* background-color: #f4f4f4;
+    /* Always on main axis y-axis */
+    /* justify-content: space-between; */
+    /* Always on cross axis x-axis */
+    /* align-items: center; */
+    flex-wrap: wrap;
 }
 
 .item {
@@ -31,4 +36,18 @@ body {
     color: #fff;
     margin: 10px;
     float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+item:nth-of-type(1) {
+    
+}
+item:nth-of-type(2) {
+    
+}
+item:nth-of-type(3) {
+    
 }
