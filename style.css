@@ -18,7 +18,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 h1, h2 {
@@ -109,3 +109,15 @@ ul {
     margin-right: 10px;
 }
 
+/* === MEDIA QUERY === */
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .boxes .container {
+        display: block;
+        text-align: center;
+    }
+}
