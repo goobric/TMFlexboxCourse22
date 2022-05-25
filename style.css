@@ -20,8 +20,8 @@ body {
 
 .flex-container {
     display: flex;
-    flex-direction: column;
-    /* background-color: #f4f4f4;
+    /* flex-direction: column; */
+    background-color: #f4f4f4;
     /* Always on main axis y-axis */
     /* justify-content: space-between; */
     /* Always on cross axis x-axis */
